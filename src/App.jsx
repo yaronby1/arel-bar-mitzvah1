@@ -17,10 +17,6 @@ function App() {
     {/* תמונה מתוך תיקיית public */}
     <img src="/invite.jpg" alt="הזמנה" className="invite-image" />
 
-    
-
-      {/* תמונה מתוך public */}
-      <img src="/invite.jpg" alt="הזמנה" className="invite-image" />
 
 
       {!submitted ? (

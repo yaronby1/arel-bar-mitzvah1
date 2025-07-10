@@ -14,10 +14,8 @@ function App() {
 
   return (
     <div className="container">
-      <img
-        src="/invite.jpg"
-        alt="הזמנה לבר מצווה של אראל"
-        className="invite-image"
+      <img src="/invite.jpg" alt="הזמנה" className="invite-image" />
+
       />
       {!submitted ? (
         <>

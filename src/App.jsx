@@ -13,14 +13,11 @@ function App() {
   };
 
   return (
-    <div className="container">
-      {/* כפתור לטופס אישור הגעה */}
-      <button
-        onClick={() => window.open("https://forms.gle/abcd1234", "_blank")}
-        className="submit"
-      >
-        לטופס אישור הגעה
-      </button>
+  <div className="container">
+    {/* תמונה מתוך תיקיית public */}
+    <img src="/invite.jpg" alt="הזמנה" className="invite-image" />
+
+    
 
       {/* תמונה מתוך public */}
       <img src="/invite.jpg" alt="הזמנה" className="invite-image" />

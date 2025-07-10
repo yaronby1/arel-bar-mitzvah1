@@ -14,9 +14,9 @@ function App() {
 
   return (
     <div className="container">
-      <img src="/invite.jpg" alt="הזמנה" className="invite-image" />
+      <img src="/invite.jpg" alt="הזמנה" />
 
-      />
+
       {!submitted ? (
         <>
           <h3>נא אשרו את הגעתכם:</h3>
@@ -40,4 +40,3 @@ function App() {
 }
 
 export default App;
-

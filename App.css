@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+  direction: rtl;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-top: 40px;
+  text-align: center;
+}
+
+.invite-image {
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 20px;
+}

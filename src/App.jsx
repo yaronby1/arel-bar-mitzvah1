@@ -34,7 +34,7 @@ function App() {
           <button className="action-button">לטופס אישור הגעה</button>
         </a>
         <a
-          href="https://waze.com/ul?ll=31.7977,35.1042&navigate=yes"
+          href="https://waze.com/ul?ll=31.795178369828992, 35.068348673134174&navigate=yes"
           target="_blank"
           rel="noreferrer"
         >

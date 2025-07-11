@@ -1,61 +1,35 @@
-body {
-  margin: 0;
-  font-family: "Arial", sans-serif;
-  background-color: #f5f5f5;
-  direction: rtl;
-  text-align: center;
-}
-
 .container {
+  text-align: center;
   padding: 20px;
 }
 
 .invite-image {
-  width: 100%;
-  max-width: 600px;
-  margin: 20px auto;
-  display: block;
-  border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.top-buttons,
-.bottom-buttons {
-  margin: 20px 0;
+.top-buttons, .bottom-buttons {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 12px;
+  margin: 12px 0;
   flex-wrap: wrap;
 }
 
-.action-button {
-  background-color: #0077cc;
+button.submit {
+  background-color: #1e88e5;
   color: white;
   border: none;
-  padding: 12px 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
   font-size: 16px;
-  border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.3s;
 }
 
-.action-button:hover {
-  background-color: #005fa3;
+button.submit:hover {
+  background-color: #1565c0;
 }
 
-@media (max-width: 600px) {
-  .action-button {
-    width: 100%;
-    font-size: 18px;
-  }
-
-  .top-buttons,
-  .bottom-buttons {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .invite-image {
-    width: 90%;
-  }
-}
